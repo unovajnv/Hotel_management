@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.hotelList = void 0;
+const Hotel_1 = require("../model/Hotel");
+let hotel1 = new Hotel_1.Hotel(1, "Tulip Inn", 'Benglore', '93849', -1);
+let hotel2 = new Hotel_1.Hotel(2, "JW marriot", 'Benglore', '9349', 10);
+let hotel3 = new Hotel_1.Hotel(3, "Krishh Inn", 'Benglore', '93889', 11);
+let hotel4 = new Hotel_1.Hotel(4, "ABC", 'Benglore', '93849', 5);
+let hotel5 = new Hotel_1.Hotel(5, "XYZ", 'Benglore', '935229', 7);
+let hotelList = [hotel1, hotel2, hotel3, hotel4, hotel5];
+exports.hotelList = hotelList;
