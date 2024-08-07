@@ -1,8 +1,8 @@
-var read = require("./node_modules/readline-sync");
-import { Hotel } from "./src/model/Hotel";
-import { addHotel } from "./src/service/addHotel";
-import { ShowHotel } from "./src/service/addHotel";
-import { RoomBook } from "./src/service/bookingHotel";
+var read = require("../node_modules/readline-sync");
+import { Hotel } from "../model/Hotel";
+import { addHotel } from "./addHotel";
+import { ShowHotel } from "./addHotel";
+import { RoomBook } from "./bookingHotel";
 
 console.log("Welcome to Hotel Management System");
 let flag = true;

@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var read = require("./node_modules/readline-sync");
-const Hotel_1 = require("./src/model/Hotel");
-const addHotel_1 = require("./src/service/addHotel");
-const addHotel_2 = require("./src/service/addHotel");
-const bookingHotel_1 = require("./src/service/bookingHotel");
+var read = require("../node_modules/readline-sync");
+const Hotel_1 = require("../model/Hotel");
+const addHotel_1 = require("./addHotel");
+const addHotel_2 = require("./addHotel");
+const bookingHotel_1 = require("./bookingHotel");
 console.log("Welcome to Hotel Management System");
 let flag = true;
 while (flag) {

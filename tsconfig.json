@@ -1,5 +1,5 @@
 {
-  "include": ["src", "index.ts"],
+  "include": ["src", "src/service/index.ts"],
   "compilerOptions": {
     "outDir": "./build",
     /* Visit https://aka.ms/tsconfig to read more about this file */
