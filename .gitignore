@@ -1,4 +1,6 @@
-.\build\node_modules
-.\src\node_modules
-./package.json
-./package-lock.json
+ package-lock.json
+ package.json
+ ../build/node_modules
+ ../src/node_modules
+
+
