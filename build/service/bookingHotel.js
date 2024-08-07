@@ -9,6 +9,7 @@ function RoomBook() {
     for (let i = 0; i < addHotel_1.hotelList.length; i++) {
         if (addHotel_1.hotelList[i].getRoomsAvailable() >= numberOfRooms) {
             console.log(`"Your Room Are booked in  ${addHotel_1.hotelList[i].getHotelname()}"`);
+            addHotel_1.hotelList[i].setRoomsAvailable(addHotel_1.hotelList[i].getRoomsAvailable() - numberOfRooms);
             break;
         }
     }
