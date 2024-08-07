@@ -1,4 +1,4 @@
-var read = require("../node_modules/readline-sync");
+var read = require("../../node_modules/readline-sync");
 import { Hotel } from "../model/Hotel";
 import { addHotel } from "./addHotel";
 import { ShowHotel } from "./addHotel";

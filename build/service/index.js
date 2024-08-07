@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var read = require("../node_modules/readline-sync");
+var read = require("../../node_modules/readline-sync");
 const Hotel_1 = require("../model/Hotel");
 const addHotel_1 = require("./addHotel");
 const addHotel_2 = require("./addHotel");
